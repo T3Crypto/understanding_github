@@ -23,3 +23,16 @@ git diff example_file.txt
 
 git checkout example_file.txt
 #This command will revert the file to the last commit.
+
+git remote add origin "remote repository URL"
+#This command will add a remote repository.
+
+git push -u origin main
+#This command will push the changes to the remote repository.
+
+git branch origin main
+#This command will create a new branch.
+
+git merge branch_name
+#This command will merge the specified branch into the current branch.
+
