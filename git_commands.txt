@@ -36,3 +36,5 @@ git branch origin main
 git merge branch_name
 #This command will merge the specified branch into the current branch.
 
+git pull origin main
+#This command will pull the changes from the remote repository.
