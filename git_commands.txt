@@ -30,7 +30,7 @@ git remote add origin "remote repository URL"
 git push -u origin main
 #This command will push the changes to the remote repository.
 
-git branch origin main
+git branch branch_name
 #This command will create a new branch.
 
 git merge branch_name
@@ -39,3 +39,5 @@ git merge branch_name
 git pull origin main
 #This command will pull the changes from the remote repository.
 
+git branch -d branch_name
+#This command will delete the specified branch.
