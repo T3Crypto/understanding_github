@@ -2,6 +2,10 @@ Welcome to the Git Layout file!
 
 This file is used to define the layout of the git system. Essentially, it is a roadmap of what the git system looks like.
 
+To create a git system, you will need to create a github account.
+
+To create a github account, you will need to go to github.com and create an account.
+
 The git system is a tree structure, with the root node being the root of the git system. Each node in the tree is a directory, and each leaf is a file.
 
 To create a remote repository that appears online, you will go through...
