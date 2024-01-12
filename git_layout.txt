@@ -1,32 +1,12 @@
-#Create directory
-mkdir understanding_github
+Welcome to the Git Layout file!
 
-#CD into repository
-cd understanding_github
+This file is used to define the layout of the git system. Essentially, it is a roadmap of what the git system looks like.
 
-#Initialize empty github repository/working station
-git init
+The git system is a tree structure, with the root node being the root of the git system. Each node in the tree is a directory, and each leaf is a file.
 
-#Create file inside of repository "understanding_github"
-touch git_layout.txt
+To create a remote repository that appears online, you will go through...
 
-#Add file to staging area
-git add git_layout.txt
-
-#Check additions to the repository
-git status
-
-#Edit file
-nano git_layout.txt
-
-#Add file changes to staging area
-git add git_layout.txt
-
-
-#Add all working updates/changes from directory files into repository
-git add .
-!!!All files and data will be uploaded to repository, including secret files!!!
-
-#Commit changes to repository
-git commit -m "First commit"
-
+1. The working station
+2. The staging area
+3. The local repository
+4. The remote repository

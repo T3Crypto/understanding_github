@@ -1,1 +1,35 @@
 #Welcome to the Github helpful tips page!
+
+##This page is designed to help you get started with Github and to help you understand how to use it.
+
+#Create directory
+mkdir understanding_github
+
+#CD into repository
+cd understanding_github
+
+#Initialize empty github repository/working station
+git init
+
+#Create file inside of repository "understanding_github"
+touch git_layout.txt
+
+#Add file to staging area
+git add git_layout.txt
+
+#Check additions to the repository
+git status
+
+#Edit file
+nano git_layout.txt
+
+#Add file changes to staging area
+git add git_layout.txt
+
+
+#Add all working updates/changes from directory files into repository
+git add .
+!!!All files and data will be uploaded to repository, including secret files!!!
+
+#Commit changes to repository
+git commit -m "First commit"
