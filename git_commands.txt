@@ -1,1 +1,25 @@
 #Welcome to the GitHub commands page!
+
+git init
+#This command will initialize a git repository in the current directory.
+
+git add example_file.txt
+#This command will add the file to the staging area.
+
+git add .
+#This command will add all files in the current directory to the staging area.
+
+git status
+#This command will show the status of the repository.
+
+git commit -m "This is an example commit message."
+#This command will commit the file to the repository.
+
+git log
+#This command will show the commit history.
+
+git diff example_file.txt
+#This command will show the changes made to the file.
+
+git checkout example_file.txt
+#This command will revert the file to the last commit.
